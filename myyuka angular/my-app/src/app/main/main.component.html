@@ -1,0 +1,137 @@
+
+<div class="col-12 coul mx-auto text-center">
+  <div class="m-4 0 mx-auto col-4">
+    <input
+    
+      class="form-control text-center "
+      type="text"
+      placeholder="code barre"
+      aria-label="Search"
+      [formControl]="cbarre"
+    />
+  </div>
+  <button (click)="afficheheader() " class="btn btn-outline-success" type="submit">
+    Scanner
+  </button>
+</div>
+
+<div class="coul text-center mt-4">
+   <div> <p id="titre">titre</p>
+  <p>{{nom}}</p></div>
+  <p id="cbarre">code barre</p>
+  <p>{{codebarre}}</p>
+     <p id="marque">informations marque</p>
+   <p> {{marque}} </p>
+  </div>
+
+<section >
+      <div class="mt-5">
+        <div class="d-flex flex-wrap">
+          <div
+            id="Photos"
+            style="
+              height: 18rem;
+              width: 25rem;
+              display: flex;
+              align-items: center;
+              justify-content: space-around;
+            "
+            class="text-center m-auto card coul "
+          >
+            Photos
+            <p> <img src={{photo}}> </p>
+          </div>
+
+          <div
+            id="Ingerdients"
+            style="
+              height: 18rem;
+              width: 25rem;
+              display: flex;
+              align-items: center;
+              justify-content: space-around;
+            "
+            class="text-center m-auto coul card flex-column"
+          >
+            <ol>
+              Ingerdients
+            </ol><p> {{ingredients}} </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="mt-5">
+        <div class="d-flex flex-wrap">
+          <div
+            style="
+              height: 18rem;
+              width: 25rem;
+              display: flex;
+              align-items: center;
+              justify-content: space-around;
+            "
+            class="text-center m-auto card coul"
+          >
+            <div
+      class="col-12  text-center mt-4 mb-4 p-3"
+
+    >
+     
+      <label>Info Distributeur {{info}} </label> <br>
+       <label> Fabricant  {{fabricant}} </label><br>
+      <label> Pays {{pays}} </label><br>
+    </div>
+          </div>
+
+          <div
+            id="valnutri"
+            style="
+              height: 18rem;
+              width: 25rem;
+              display: flex;
+              align-items: center;
+              justify-content: space-around;
+            "
+            class="text-center m-auto  card coul flex-column"
+          >
+           <P> valeurs nutritives</P>
+           <p> <img src= {{nutriments}}></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="coul text-center p-3 mt-3"  id="allergenes" > 
+       allergenes
+      <p>{{allergenes}} </p>
+    </div>
+
+   
+      <div class="d-flex flex-wrap justify-content-around text-center mt-3">
+        <div
+          id="NOVA"class="col-12 col-md-3 p-5 coul m-auto">
+          <p >NOVA</p>
+          <p>{{nova}}</p>
+        </div>
+
+        <div
+          id="NUTRISCORE"
+         
+          class="text-center m-auto coul p-5 col-md-3 col-12"
+        >
+          <p>NUTRISCORE</p>
+          <p> {{nutriscore}} </p>
+        </div>
+        <div
+          id="HUILE"
+         
+          class="text-center m-auto coul col-md-3 col-12 p-5"
+        >
+          <p >HUILE DE PALME</p>
+          <p> {{huile}} </p>
+        </div>
+      </div>
+    
+    
+

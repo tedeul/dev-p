@@ -1,0 +1,17 @@
+/* You can add global styles to this file, and also import other style files */
+@import 'bootstrap/dist/css/bootstrap.css';
+body{
+    background-image: url("assets/img/wallpaperuse.com-food-background-wallpaper-504450.jpg");
+   background-size: 100%;
+ 
+    font-weight: bold;
+}
+.btn{
+    background-color: #87bb34;
+    color: #fff; 
+}
+.coul{
+   background-color: rgb(54, 124, 159); 
+   color: #fff;
+   text-transform: uppercase;
+}
