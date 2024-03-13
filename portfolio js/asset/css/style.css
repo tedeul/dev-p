@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Inconsolata:wght@200..900&family=Whisper&display=swap");
+
+body {
+  background-image: url("/asset/img/texture-beton-gris-clair-pour-fond.jpg");
+  background-size: 100%;
+}
+#navbarp {
+  font-size: x-large;
+  font-family: "Dancing Script", "Inconsolata", monospace;
+  background: rgba(255, 255, 255, 0.264);
+  margin-bottom: 5em;
+}
+#photop {
+  height: 100px;
+  width: 100px;
+  border-radius: 10em;
+  margin-top: 2em;
+}
+.container {
+  backdrop-filter: blur(20px);
+  background: rgba(255, 255, 255, 0.264);
+  box-shadow: 0px 0px 15px #00000018;
+  border-radius: 30px;
+  font-family: "Inconsolata";
+  
+}
+hr {
+  text-align: center;
+  border: 1px solid black;
+  width: 200px;
+  margin: 0 auto 0 auto;
+}
+label {
+  font-weight: bold;
+  font-size: x-large;
+}
+.downloadbutton {
+  background: rgba(255, 255, 255, 0.264);
+}
+
+#social{
+    margin-bottom: 25em;
+}
